@@ -15,9 +15,11 @@
   },
   "devDependencies": {
     "mocha": "2.3.3",
-    "chai": "2.1.0"
+    "chai": "2.1.0",
+    "jshint": "2.8.0"
   },
   "scripts": {
+    "lint": "jshint index.js lib/**.js",
     "test": "mocha --reporter spec --bail"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "hugla-config",
+  "version": "0.1.0",
+  "description": "hugla web framework's node back-end config module",
+  "keywords": [
+    "web",
+    "framework",
+    "hugla",
+    "config"
+  ],
+  "license": "",
+  "author": "noosxe <noosx.e@gmail.com> (https://noosxe.com/)",
+  "dependencies": {
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+
+  }
+}

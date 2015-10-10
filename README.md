@@ -25,3 +25,7 @@ huglaConfig.addConfig({ 'foo': 'bar' });
 console.log(huglaConfig.config.foo);
 
 ```
+
+## License
+
+[MIT](LICENSE)

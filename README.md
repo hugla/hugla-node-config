@@ -1,6 +1,9 @@
 # HuglaConfig
 ### Hugla web framework's node back-end config module
 
+[![Build Status](https://travis-ci.org/hugla/hugla-node-config.svg?branch=master)](https://travis-ci.org/hugla/hugla-node-config)
+[![Coverage Status](https://coveralls.io/repos/hugla/hugla-node-config/badge.svg?branch=master&service=github)](https://coveralls.io/github/hugla/hugla-node-config?branch=master)
+
 ## Usage
 
 Here is a descriptive example of using HuglaConfig

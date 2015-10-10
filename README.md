@@ -8,10 +8,10 @@ Here is a descriptive example of using HuglaConfig
 ```javascript
 
 // require the module
-var HuglaConfig = require('hugla-config');
+const HuglaConfig = require('hugla-config');
 
 // instantiate
-var huglaConfig = new HuglaConfig();
+const huglaConfig = new HuglaConfig();
 
 // add sources
 huglaConfig.addFile(configFilePath);

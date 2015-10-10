@@ -8,7 +8,8 @@
     "hugla",
     "config"
   ],
-  "license": "",
+  "license": "MIT",
+  "repository": "hugla/hugla-node-config",
   "author": "noosxe <noosx.e@gmail.com> (https://noosxe.com/)",
   "dependencies": {
     "lodash": "3.10.1"
@@ -16,10 +17,12 @@
   "devDependencies": {
     "mocha": "2.3.3",
     "chai": "2.1.0",
-    "jshint": "2.8.0"
+    "jshint": "2.8.0",
+    "istanbul": "0.3.22"
   },
   "scripts": {
     "lint": "jshint index.js lib/**.js",
-    "test": "mocha --reporter spec --bail"
+    "test": "mocha --reporter spec --bail",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   }
 }

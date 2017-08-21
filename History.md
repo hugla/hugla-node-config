@@ -1,3 +1,8 @@
+0.2.0 / 2017-08-20
+==================
+  * Convert to ES6 module
+  * Use jest for tests instead of mocha, chai
+
 0.1.1 / 2015-10-10
 ==================
 

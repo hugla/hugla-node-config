@@ -1,6 +1,6 @@
 {
   "name": "hugla-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "hugla web framework's node back-end config module",
   "keywords": [
     "web",
@@ -11,6 +11,7 @@
   "license": "MIT",
   "repository": "hugla/hugla-node-config",
   "author": "noosxe <noosx.e@gmail.com> (https://noosxe.com/)",
+  "main": "./lib/hugla-config.js",
   "devDependencies": {
     "babel-cli": "6.24.x",
     "babel-eslint": "^7.2.3",
